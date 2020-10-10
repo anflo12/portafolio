@@ -4,11 +4,11 @@ import Image_gallery from "./Image-gallery";
 export default function CardWork() {
   return (
     <div>
-      <div class="max-w-lg  lg:max-w-full mx-auto lg:flex w-10/12 my-8">
+      <div class="max-w-lg md:max-w-3xl md:mx-2 lg:max-w-full mx-auto lg:flex my-8">
         <div
-          class="border-r f border-b border-l mx-auto border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 
-          px-12
-        flex lg:flex-row flex-col-reverse justify-between leading-normal"
+          class="border-r f border-b border-l mx-auto border-gray-400 lg:border-l-0 lg:border-t 
+          lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 md:p-2
+          px-12 flex lg:flex-row flex-col-reverse md:flex-row justify-between leading-normal"
         >
           <div className="mb-8 flex flex-col justify-center w-5/12 lg:mt-0 mt-8">
             <h1 className="text-black font-semibold text-2xl w-64">React Store</h1>
