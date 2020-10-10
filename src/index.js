@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
+import './index.css';
 import './main.css';
-import Footer from './pages/Footer';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
 
 ReactDOM.render(
  
-   <div>
+   <Router>
+     
      <App/>
-     <Footer/>
-   </div>
+   
+   </Router>
   ,
   document.getElementById('root')
 );

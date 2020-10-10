@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useRouteMatch } from "react-router-dom";
 import '../App.css'
 export default function Navbar() {
-  const [isExpanded, toggleExpansion] = useState(true);
+  const [isExpanded, toggleExpansion] = useState(false);
   let math = useRouteMatch('/');
   const Ontoggle = () => {
     if (isExpanded) {
@@ -16,12 +16,12 @@ export default function Navbar() {
     <nav
       className={`${
         math.isExact ? `navbar` : `bg-my-primary`
-      } flex items-start lg:items-center  align-middle lg:justify-between  lg:flex-wrap flex-col`}
+      } max-w-none flex items-start lg:items-center  align-middle lg:justify-between  lg:flex-wrap flex-col`}
     >
       <div class="block lg:hidden ">
         <button
           class="flex items-center px-3 border rounded
-           text-my-primary border-my-primary hover:text-white hover:border-white"
+           text-my-primary w-12 h-12 bg-white m-2 border-my-background hover:border-white"
           onClick={Ontoggle}
         >
           <svg
@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <div class="text-sm lg:flex-grow  my-4">
           <Link
-            to="About"
+            to="about"
             className={`${
               math.isExact ? `link-tr hover:text-gray-900` : `link-bl hover:text-gray-200`
             } lg:inline-block`}
@@ -49,7 +49,7 @@ export default function Navbar() {
             Sobre mi
           </Link>
           <Link
-            to="Works"
+            to="works"
             className={`${
               math.isExact ? `link-tr hover:text-gray-900` : `link-bl hover:text-gray-200`
             } lg:inline-block `}
@@ -58,7 +58,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="About"
+            to="contact"
             className={`${
               math.isExact ? `link-tr hover:text-gray-900` : `link-bl hover:text-gray-200`
             } lg:inline-block `}

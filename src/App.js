@@ -1,21 +1,18 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
-import Footer from "./pages/Footer";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Works from "./pages/Works";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Works" component={Home} />
-        </Switch>
-      </BrowserRouter>
-
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/works" component={Works} />
+      <Route exact path="/contact" component={Contact} />
     </>
   );
 }
