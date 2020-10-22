@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.12f2db20.chunk.css",
-    "main.js": "/portafolio/static/js/main.f41192a2.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.f41192a2.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.b41a7f92.chunk.css",
+    "main.js": "/portafolio/static/js/main.41146eac.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.41146eac.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.1d39578f.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.1d39578f.js.map",
-    "static/css/2.e6cf9162.chunk.css": "/portafolio/static/css/2.e6cf9162.chunk.css",
-    "static/js/2.b6c8ac9c.chunk.js": "/portafolio/static/js/2.b6c8ac9c.chunk.js",
-    "static/js/2.b6c8ac9c.chunk.js.map": "/portafolio/static/js/2.b6c8ac9c.chunk.js.map",
+    "static/css/2.55f16be0.chunk.css": "/portafolio/static/css/2.55f16be0.chunk.css",
+    "static/js/2.47be47a3.chunk.js": "/portafolio/static/js/2.47be47a3.chunk.js",
+    "static/js/2.47be47a3.chunk.js.map": "/portafolio/static/js/2.47be47a3.chunk.js.map",
     "index.html": "/portafolio/index.html",
-    "precache-manifest.d7e4475af72be41521633405607c0c31.js": "/portafolio/precache-manifest.d7e4475af72be41521633405607c0c31.js",
+    "precache-manifest.b492d0c1b163092733429b59e0c25113.js": "/portafolio/precache-manifest.b492d0c1b163092733429b59e0c25113.js",
     "service-worker.js": "/portafolio/service-worker.js",
-    "static/css/2.e6cf9162.chunk.css.map": "/portafolio/static/css/2.e6cf9162.chunk.css.map",
-    "static/css/main.12f2db20.chunk.css.map": "/portafolio/static/css/main.12f2db20.chunk.css.map",
-    "static/js/2.b6c8ac9c.chunk.js.LICENSE.txt": "/portafolio/static/js/2.b6c8ac9c.chunk.js.LICENSE.txt",
+    "static/css/2.55f16be0.chunk.css.map": "/portafolio/static/css/2.55f16be0.chunk.css.map",
+    "static/css/main.b41a7f92.chunk.css.map": "/portafolio/static/css/main.b41a7f92.chunk.css.map",
+    "static/js/2.47be47a3.chunk.js.LICENSE.txt": "/portafolio/static/js/2.47be47a3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portafolio/static/media/fondoHome.d10cc549.jpg",
     "static/media/profile.jpg": "/portafolio/static/media/profile.fa724a90.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d39578f.js",
-    "static/css/2.e6cf9162.chunk.css",
-    "static/js/2.b6c8ac9c.chunk.js",
-    "static/css/main.12f2db20.chunk.css",
-    "static/js/main.f41192a2.chunk.js"
+    "static/css/2.55f16be0.chunk.css",
+    "static/js/2.47be47a3.chunk.js",
+    "static/css/main.b41a7f92.chunk.css",
+    "static/js/main.41146eac.chunk.js"
   ]
 }
