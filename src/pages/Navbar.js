@@ -11,7 +11,6 @@ export default function Navbar() {
       toggleExpansion(true);
     }
   };
-  console.log(math)
   return (
     <nav
       className={`${

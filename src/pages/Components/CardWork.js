@@ -1,7 +1,7 @@
 import React from "react";
 import Image_gallery from "./Image-gallery";
 
-export default function CardWork() {
+export default function CardWork({ data }) {
   return (
     <div>
       <div class="max-w-lg md:max-w-3xl md:mx-2 lg:max-w-full mx-auto lg:flex my-8">
@@ -11,15 +11,13 @@ export default function CardWork() {
           px-12 flex lg:flex-row flex-col-reverse md:flex-row justify-between leading-normal"
         >
           <div className="mb-8 flex flex-col justify-center w-5/12 lg:mt-0 mt-8">
-            <h1 className="text-black font-semibold text-2xl w-64">React Store</h1>
-            <p className="w-64 lg:mt-6">
-              Es un proyecto de una aplicacion movil de E-commerce desarrollada 
-              enreact native, tiene funciones como inicio de sesion, carrito de compras
-              y datos persistentes
-            </p>
+            <h1 className="text-black font-semibold text-2xl w-64">
+              {data.name}
+            </h1>
+            <p className="w-64 lg:mt-6">{data.description}</p>
 
             <a
-              href="https://github.com/xiaolin/react-image-gallery/issues/327"
+              href={data.urlRepository}
               target="_blank"
               className="text-blue-500 border-b  border-blue-500 w-32 mt-6"
             >
@@ -28,11 +26,19 @@ export default function CardWork() {
           </div>
 
           <div className="flex justify-end text-lg lg:w-2/3 w-64 font-sans mr-12 font-medium text-black flex-col">
-            <p> <span className='font-semibold'>Cliente:</span> Andres Florez</p>
-            <p> <span className='font-semibold'>Empresa D:</span> Hefest software</p>
-            <p> <span className='font-semibold'>Especialidad: </span>App movil</p>
-
-
+            <p>
+              {" "}
+              <span className="font-semibold">Cliente:</span> {data.clientName}
+            </p>
+            <p>
+              {" "}
+              <span className="font-semibold">Empresa D:</span> {data.company}
+            </p>
+            <p>
+              {" "}
+              <span className="font-semibold">Especialidad: </span>
+              {data.specialty}
+            </p>
           </div>
 
           <div className="lg:w-4/12 lg:mb-0 mb-8">
